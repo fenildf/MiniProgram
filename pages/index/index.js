@@ -7,7 +7,6 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-<<<<<<< HEAD
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     longitude: 116.404185, // 中间点坐标
     latitude: 39.91491,
@@ -40,10 +39,8 @@ Page({
         height: 30
       },
       clickable: true
-    }]
-=======
+    }],
     canIUse: wx.canIUse('button.open-type.getUserInfo')
->>>>>>> 0f43eebf3e2b277b29395779dc02a264a5dad86a
   },
   //事件处理函数
   bindViewTap: function() {
@@ -92,7 +89,6 @@ Page({
       title: '自定义标题',
       path: '/pages/index',
     }
-<<<<<<< HEAD
   },
 
   controltap: function(e) {
@@ -124,7 +120,5 @@ Page({
     wx.navigateTo({
       url: '../me/me',
     })
-=======
->>>>>>> 0f43eebf3e2b277b29395779dc02a264a5dad86a
   }
 })

@@ -6,12 +6,9 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
-<<<<<<< HEAD
     var sysinfo = wx.getSystemInfoSync();
     console.log(sysinfo); 
 
-=======
->>>>>>> 0f43eebf3e2b277b29395779dc02a264a5dad86a
     // 登录
     wx.login({
       success: res => {
