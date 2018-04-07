@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/scan/scan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#009fde",
+    "navigationBarTitleText": "EV堡",
+    "navigationBarTextStyle": "white"
+  }
+}
