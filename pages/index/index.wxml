@@ -1,6 +1,10 @@
 <!--index.wxml-->
 <view class="container">
+<<<<<<< HEAD
   <!-- <view class="userinfo">
+=======
+  <view class="userinfo">
+>>>>>>> 0f43eebf3e2b277b29395779dc02a264a5dad86a
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
@@ -9,6 +13,7 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+<<<<<<< HEAD
   </view> -->
   <view class='mapContainer'>
     <map id="map" class='map' longitude="{{longitude}}" latitude="{{latitude}}" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 100%; height: 80vh;">
@@ -20,4 +25,7 @@
   </view>
   
   
+=======
+  </view>
+>>>>>>> 0f43eebf3e2b277b29395779dc02a264a5dad86a
 </view>
