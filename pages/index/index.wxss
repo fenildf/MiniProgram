@@ -32,14 +32,39 @@
   align-items: flex-end;
 }
 
+.cover {
+  position: relative;
+  top: 100%;
+  height: 50px;
+  margin-top: -65px;
+  display: flex;
+  justify-content: center;
+}
+
 .scan {
-  width: 100%;
+  width: 80%;
   background-color: #009fde;
   color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 6px;
+}
+
+.cover_personal {
+  position: relative;
+  top: 100%;
+  height: 150px;
+  margin-top: -150px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .personal {
-  width: 100%;
+  width: 60px;
   background-color: #009fde;
-  color: white;
+  color: white; 
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 3px;
 }

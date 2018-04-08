@@ -10,12 +10,18 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view> -->
-  <view class='mapContainer'>
-    <map id="map" class='map' longitude="{{longitude}}" latitude="{{latitude}}" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 100%; height: 80vh;">
-      
-    </map>
+  <map id="map" class='map' longitude="{{longitude}}" latitude="{{latitude}}" scale="10" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 100%; height: 100vh;">
+    <cover-view class='cover'>
+      <cover-view class='scan' bindtap='scantap'>
+        扫码充电
+      </cover-view>
 
-    <button class='scan' bindtap='scantap'>扫码充电</button>
-    <button class='personal' bindtap='personaltap'>我的</button>
-  </view>
+      <!-- <cover-view class='personal' bindtap='personaltap'>
+        我
+      </cover-view> -->
+    </cover-view>
+    <!-- <cover-view class='cover_personal'>
+      
+    </cover-view> -->
+  </map>
 </view>
