@@ -16,12 +16,16 @@
         扫码充电
       </cover-view>
 
-      <!-- <cover-view class='personal' bindtap='personaltap'>
+      <cover-view class='personal' bindtap='personaltap'>
         我
-      </cover-view> -->
+      </cover-view>
+
+      <cover-view class='refresh' bindtap='refreshtap'>
+        刷新
+      </cover-view>
+      <cover-view class='location' bindtap='locationtap'>
+        定位
+      </cover-view>
     </cover-view>
-    <!-- <cover-view class='cover_personal'>
-      
-    </cover-view> -->
   </map>
 </view>

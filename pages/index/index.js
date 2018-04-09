@@ -183,5 +183,15 @@ Page({
     })
 
     console.log('personal');
+  },
+  refreshtap: function(e) {
+    wx.navigateTo({
+      url: '../logs/logs',
+    })
+  },
+  locationtap: function(e) {
+    wx.navigateTo({
+      url: '../scan/scan',
+    })
   }
 })
